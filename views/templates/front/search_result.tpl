@@ -2,7 +2,7 @@
   {if $products}
     <div class="search-result__products row">
       {foreach from=$products item=$product}
-        {include file="module:is_searchbar/views/templates/front/product.tpl"}
+        {include file='module:is_searchbar/views/templates/front/product.tpl' type='listing'}
       {/foreach}
     </div>
 
